@@ -18,25 +18,25 @@ next time you run this config will be available
 
 ## 3 troubleshooting
 Errors:
-- Game does not appear in list at start
-  make sure you have made a directory in autoinstall.py dir\configs\
-  make sure this directory contains your config called cream_api.ini
+#### Game does not appear in list at start
+- make sure you have made a directory in autoinstall.py dir\configs\
+-  make sure this directory contains your config called cream_api.ini
 
-- Invalid game
-  check you have copied the name exactly from this list of games printed
+#### Invalid game
+-  check you have copied the name exactly from this list of games printed
 
-- Invalid game directory
-  check you have entered the correct directory (e.g. C:\Program Files (x86)\Steam\steamapps\common\Arma 3)
-  check this directory contains steam_api.dll and steam_api64.dll
+#### Invalid game directory
+-  check you have entered the correct directory (e.g. C:\Program Files (x86)\Steam\steamapps\common\Arma 3)
+-  check this directory contains steam_api.dll and steam_api64.dll
 
-- Cream api is already installed for this game
-  check you have steam_api_o.dll and steam_api64_o.dll
-  delete steam_api.dll and steam_api64.dll
-  rename steam_api_o.dll to steam_api.dll and steam_api64_o.dll to steam_api64.dll
-  next time you run install should work
+#### Cream api is already installed for this game
+-  check you have steam_api_o.dll and steam_api64_o.dll
+-  delete steam_api.dll and steam_api64.dll
+-  rename steam_api_o.dll to steam_api.dll and steam_api64_o.dll to steam_api64.dll
+-  next time you run install should work
 
-- Error installing creamapi
-  try running autoinstall.py with administrator permissions
+#### Error installing creamapi
+-  try running autoinstall.py with administrator permissions
   
 # HOW TO without script
 1) Go to base folder of game (steamapps\common\<game>\)
