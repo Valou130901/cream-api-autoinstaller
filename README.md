@@ -39,8 +39,8 @@ Errors:
   try running autoinstall.py with administrator permissions
   
 # HOW TO without script
-Go to base folder of game (steamapps\common\<game>\)
-Rename steam_api.dll to steam_api_o.dll & steam_api64.dll to steam_api64_o.dll
-Copy steam_api.dll & steam_api64.dll from this folder into that games folder
-Copy your games config into the same folder you put steam_api.dll in E.g. for arma3 copy config from configs/arma3/ to steamapps/common/Arma 3/
-Launch your game
+1) Go to base folder of game (steamapps\common\<game>\)
+2) Rename steam_api.dll to steam_api_o.dll & steam_api64.dll to steam_api64_o.dll
+3) Copy steam_api.dll & steam_api64.dll from this folder into that games folder
+4) Copy your games config into the same folder you put steam_api.dll in E.g. for arma3 copy config from configs/arma3/ to steamapps/common/Arma 3/
+5) Launch your game
