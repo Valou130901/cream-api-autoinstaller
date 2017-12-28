@@ -3,7 +3,7 @@
 // copy paste this entire file into dev console (f12) and press enter
 // file: cream_api.ini will automatically be downloaded
 
-const parser_data = {
+var parser_data = {
 	name: "CreamApi config JS generator",
 	version: "0.23"
 }
